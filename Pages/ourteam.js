@@ -5,7 +5,6 @@ import parinati from '../Images/Team/Core-members/parinati.png';
 import Ankit from '../Images/Team/Executive council/Ankit_bhora.jpg';
 import Arsh_singh from '../Images/Team/Executive council/Arsh_singh.jpg';
 import Ayush_kr_Gupta from '../Images/Team/Executive council/Ayush_kr_Gupta.jpg';
-import Deepu from '../Images/Team/Executive council/Deepu.jpg';
 import Divyanshu from '../Images/Team/Executive council/Divyanshu_bhatt.jpg';
 import Diya from '../Images/Team/Executive council/Diya_Bhatt.jpg';
 import Gurnoor from '../Images/Team/Executive council/Gurnoor.jpg';
@@ -27,9 +26,18 @@ import Vanshika from '../Images/Team/Executive council/Vanshika.jpg';
 function OurTeam() {
     return (
         <MainLayout>
+        <div className='py-10 overflow-x-hidden'>
+        <div className='py-12 animate-marquee whitespace-nowrap text-green-800' style={{'font-family': 'Bungee Outline'}}>
+            <span className='mx-14 text-8xl'>Our Team</span>
+            <span className='mx-14 text-8xl'>Our Team</span>
+            <span className='mx-14 text-8xl'>Our Team</span>
+            <span className='mx-14 text-8xl'>Our Team</span>
+            <span className='mx-14 text-8xl'>Our Team</span>
+        </div></div>
         <section id="our-team">
-        <div className="flex-col">
-            <div className="flex justify-center items-center p-16 text-3xl">Core Council</div>
+        <p className='bg-green-400 text-green-50 text-xl p-8 text-justify'>We are thrilled to introduce our team. We are a passionate and dedicated team of youth professionals who share a common goal of preserving and protecting the environment. Our team is composed of individuals from diverse backgrounds with a mission to drive positive change by developing innovative and practical solutions that address the most pressing environmental challenges of our time.</p>
+        <div className="flex-col bg-green-100 text-green-800">
+            <div className="flex justify-center items-center p-16 text-5xl font-semibold">Core Council</div>
             <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-2 lg:grid-cols-2 justify-center">
                 <div className="mx-auto p-16">
                     <div className="flex-coll">
@@ -45,8 +53,8 @@ function OurTeam() {
                 </div>
             </div>
         </div>
-        <div className="flex-col">
-            <div className="flex justify-center items-center p-16 text-3xl">Executive Council</div>
+        <div className="flex-col bg-green-500 bg-opacity-70 text-green-700">
+            <div className="flex justify-center items-center p-16 text-5xl font-semibold">Executive Council</div>
             <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 lg:grid-cols-3">
                 <div className="mx-auto p-16">
                     <div className="flex-col">
@@ -65,12 +73,6 @@ function OurTeam() {
                         <img src={Ayush_kr_Gupta} className="w-48 rounded-lg lg:w-auto"
                             alt="Ayush_kr_Gupta"  />  
                             <p className="flex justify-center text-2xl p-4">Ayush Kr Gupta</p>  
-                    </div>
-                </div>
-                <div className="mx-auto p-16">
-                    <div className="flex-col">
-                        <img src={Deepu} className="w-48 rounded-lg lg:w-auto" alt="Deepu" />
-                        <p className="flex justify-center text-2xl p-4">Deepu</p>    
                     </div>
                 </div>
                 <div className="mx-auto p-16">
@@ -175,7 +177,7 @@ function OurTeam() {
             </div>
         </div>
     </section>
-        </MainLayout>
+    </MainLayout>
     );
 }
 

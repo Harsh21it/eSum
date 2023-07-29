@@ -5,7 +5,15 @@ import leaves from "../Images/Leaves.jpeg";
 function ContactUs() {
   return (
     <MainLayout>
-        <div className="grid place-content-center h-[824px] mix-blend-overlay" style={{ backgroundImage:`url(${leaves})` }} id="form">
+    <div className='py-10 overflow-x-hidden'>
+        <div className='py-12 animate-marquee whitespace-nowrap text-green-400' style={{'font-family': 'Bungee Outline'}}>
+            <span className='mx-8 text-8xl'>Contact Us</span>
+            <span className='mx-8 text-8xl'>Contact Us</span>
+            <span className='mx-8 text-8xl'>Contact Us</span>
+            <span className='mx-8 text-8xl'>Contact Us</span>
+            <span className='mx-8 text-8xl'>Contact Us</span>
+        </div></div>
+        <div className="grid place-content-center h-[824px]" style={{ backgroundImage:`url(${leaves})` }} id="form">
             <form className="max-w-[700px] w-full bg-slate-800 bg-opacity-50 mx-auto p-8 rounded-lg z-11">
             <div className="text-center py-3 text-3xl text-white font-bold">
               Contact Us
