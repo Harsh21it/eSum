@@ -1,7 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Bungee+Spice&family=Monoton&display=swap');
 @tailwind base;
 
 @tailwind components;
