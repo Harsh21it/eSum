@@ -10,20 +10,20 @@ import {
 export default function SocialFollow() {
   return (
     <div class="social-container">
-    <ul className="flex space-x-4 py-6 mx-2 mix-blend-overlay">
+    <ul className="flex flex-col md:flex-row space-x-4 md:py-6 mx-2y">
       <a href="https://www.youtube.com"
-        className="">
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
+        className="ml-3">
+        <FontAwesomeIcon icon={faYoutube} className="hover:animate-bounce"  size="2x" />
       </a>
       <a href="https://www.facebook.com"
-        className="">
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
+        className="hover:animate-bounce">
+        <FontAwesomeIcon icon={faFacebook}  size="2x" />
       </a>
-      <a href="https://www.twitter.com" className="">
+      <a href="https://www.twitter.com" className="hover:animate-bounce">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a href="https://www.instagram.com"
-        className="">
+        className="hover:animate-bounce">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
       </ul>
